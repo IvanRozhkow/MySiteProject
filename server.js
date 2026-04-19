@@ -8,7 +8,7 @@ app.use(express.static('public')); // Раздаем файлы из папки 
 const db = mysql.createConnection({
     host: '172.18.64.1',
     user: 'root',
-    password: 'root1234',
+    password: 'process.env.DB_PASSWORD',
     database: 'my_site_db'
 });
 
