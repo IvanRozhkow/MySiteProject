@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Адаптивность: на мобилках текст будет чуть меньше */
+@media (max-width: 600px) {
+    h1 { font-size: 1.5rem; }
+}
